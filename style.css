@@ -12,7 +12,7 @@ body {
 .left-half,
 .right-half {
     position: absolute;
-    top: 60%;
+    top: 29.5%;
     bottom: 0;
     width: 50%; 
   }
@@ -21,27 +21,29 @@ body {
 .top-header{
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: #1d00dc;
   }
 .left-half {
-    left: 0;
-    background-color: white; 
+    left: 0px;
+    background-color: white;
   }
 .right-half {
-    right: 0;
+    right: 0px;
     background-color: white; 
   }
 
 /*  Section Text - Headers  */
 .top-header h1{
   color: white;
-  font-size: xx-large;
+  font-size: 10ch;
   }
 .left-half h1{
+  margin-top: 20%;
   color: black;
   font-size: large;
 }
 .right-half h1 {
+  margin-top: 20%;
   color: black;
   font-size: large;
 }
