@@ -1,10 +1,61 @@
 body {
-    background: lightskyblue;
+    background: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-body h1 {
-    font-size: x-large;
-    color: white;
+.top-header{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+.left-half,
+.right-half {
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    width: 50%; 
+  }
+
+/*  Tri Sections  */
+.top-header{
+    left: 0;
+    right: 0;
     background-color: black;
   }
+.left-half {
+    left: 0;
+    background-color: white; 
+  }
+.right-half {
+    right: 0;
+    background-color: white; 
+  }
+
+/*  Section Text - Headers  */
+.top-header h1{
+  color: white;
+  font-size: xx-large;
+  }
+.left-half h1{
+  color: black;
+  font-size: large;
+}
+.right-half h1 {
+  color: black;
+  font-size: large;
+}
+
+/*  Section Text - Paragraphs  */
+.left-half p{
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: small;
+}
+.right-half p{
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: small;
+}
